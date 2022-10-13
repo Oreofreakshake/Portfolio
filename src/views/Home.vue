@@ -9,7 +9,7 @@
         <h1 class="text-xl font-mukta tracking-wider text-greyBlue text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
         <h1 class="text-lg  tracking-wider text-greyBlue text-lightestslate font-mono md:mt-0 mt-1"> {{"<MobileApps/> && MachineLearning(Models);"}}</h1> 
         <!-- <h1 class="text-lg font-poppins text-slate">Currently, I'm focused on building accessible, human-centered products BML.</h1>-->
-        <div class="py-8"></div>
+        
           <div class="w-full text-greyBlue text-4xl mt-24 flex justify-center animate-bounce">
           <svg stroke="text" fill="white" stroke-width="0" viewBox="0 0 16 16" class="inline-block" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"></path></svg>
           </div>
