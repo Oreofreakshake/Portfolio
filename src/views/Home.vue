@@ -2,12 +2,12 @@
   <div class="flex flex-col items-center bg-navy px-8 md:px-16 lg:px-32 xl:px-64 2xl:px-96">
     <div class="bg-navy flex flex-col items-center w-full h-full ">
       <div class="flex flex-col justify-center h-screen">
-        <h1 class="text-xl font-mono font-normal text-green my-3">Hello, my name is </h1>
-        <h1 class="pb-2 font-mukta text-4xl sm:text-5xl md:text-7xl font-bold tracking-wide text-lightestslate" style="opacity: 1; pointer-events: auto; transform: none;">Yoosuf Yazak Hafiz</h1>
-        <h1 class="pb-2 font-mukta text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-slate">I like AI.</h1>
+        <h1 class="text-xl font-mono font-normal text-green mb-4">Hello, my name is </h1>
+        <h1 class="pb-2 font-poppins text-4xl sm:text-6xl md:text-6xl font-bold tracking-wide text-lightestslate" style="opacity: 1; pointer-events: auto; transform: none;">Yoosuf Yazak Hafiz</h1>
+        <h1 class="pb-2 font-poppins text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-slate">I like AI.</h1>
 
-        <h1 class="text-lg xs:text-xl tracking-wider text-greyBlue text-lightslate mt-1">I’m a software engineer specializing in building </h1>
-        <h1 class="text-lg xs:text-xl tracking-wider text-greyBlue text-lightestslate font-mono"> {{"<MobileApps/> && MachineLearning(Models);"}}</h1> 
+        <h1 class="text-xl font-mukta tracking-wider text-greyBlue text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
+        <h1 class="text-lg  tracking-wider text-greyBlue text-lightestslate font-mono md:mt-0 mt-1"> {{"<MobileApps/> && MachineLearning(Models);"}}</h1> 
         <!-- <h1 class="text-lg font-poppins text-slate">Currently, I'm focused on building accessible, human-centered products BML.</h1>-->
         <div class="py-8"></div>
           <div class="w-full text-greyBlue text-4xl mt-24 flex justify-center animate-bounce">
