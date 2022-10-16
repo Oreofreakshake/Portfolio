@@ -1,23 +1,19 @@
 <template>
   <div class="flex flex-col items-center bg-navy px-8 md:px-16 lg:px-32 xl:px-64 2xl:px-96">
-    <div class="bg-navy flex flex-col items-center w-full h-full ">
+    <div class="flex flex-col items-center justify-center w-full h-full ">
       <div class="flex flex-col justify-center h-screen">
-        <h1 class="text-xl font-mono font-normal text-green mb-4">Hello, my name is </h1>
-        <h1 class="pb-2 font-poppins text-4xl sm:text-6xl md:text-6xl font-bold tracking-wide text-lightestslate" style="opacity: 1; pointer-events: auto; transform: none;">Yoosuf Yazak Hafiz</h1>
-        <h1 class="pb-2 font-poppins text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-slate">I like AI.</h1>
+        <h1 class=" text-xl font-mono font-normal text-green mb-4 mt-2">Hello, my name is </h1>
+        <h1 class=" font-poppins text-4xl md:text-6xl font-bold tracking-wide text-lightestslate" style="opacity: 1; pointer-events: auto; transform: none;">Yoosuf Yazak Hafiz</h1>
 
-        <h1 class="text-xl font-mukta tracking-wider text-greyBlue text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
+        <h1 class="text-xl font-mukta tracking-wider text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
         <h1 class="text-lg  tracking-wider text-greyBlue text-lightestslate font-mono md:mt-0 mt-1"> {{"<MobileApps/> && MachineLearning(Models);"}}</h1> 
         <button type="submit" class="border-2 border-green hover:border-white hover:bg-green hover:bg-opacity-10 mt-8 text-green hover:text-white w-32 h-16 rounded-lg font-mono transition-colors duration-300 tracking-wider"> Github</button>
         
         
         <!-- <h1 class="text-lg font-poppins text-slate">Currently, I'm focused on building accessible, human-centered products BML.</h1>-->
          
-          <div class="w-full text-greyBlue text-4xl mt-24 md:hidden flex justify-center animate-bounce">
-          <svg stroke="text" fill="#8892b0" stroke-width="0" viewBox="0 0 16 16" class="inline-block" height="0.8em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"></path></svg>
-          </div>
-          <div class="fle justify-center w-full mt-28 ">
-            <div class="mouse-icon invisible md:visible">
+          <div class="w-full mt-32 md:mt-40 justify-center">
+            <div class="mouse-icon">
               <svg
                 width="30"
                 height="30"
@@ -39,7 +35,10 @@
                 ></path>
               </svg>
             </div>
+          
           </div>
+            
+          
           
             
 
