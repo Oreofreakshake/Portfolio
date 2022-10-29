@@ -22,7 +22,7 @@
                         <span class="font-mono text-white"> python </span>
                     and I've been using <span class="font-mono text-white"> python </span>ever since to this day. In 2017 I was interested by web development so, I started off with a few static websites and finally in 2020, during the COVID-19, I started exploring frameworks and got intrested by the
                         <span class=" text-white font-mono">MERN</span> stack.
-                    Soon after I realized that I really don't enjoy building websites as much I used to, I explored mobile development. I was hooked. Fast-forward today, I'm fluent in
+                    Soon after I realized that I really don't enjoy building websites as much I used to, I explored mobile development and I was hooked! Fast-forward today, I'm fluent in
                         <span class=" text-white font-mono">Flutter, </span>
                         <span class=" text-white font-mono">ReactJS, </span>and
                         <span class=" text-white font-mono">Django. </span>and
