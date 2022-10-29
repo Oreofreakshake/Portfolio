@@ -3,11 +3,11 @@
     <div class="flex flex-col items-center justify-center w-full h-full ">
       <div class="flex flex-col justify-center h-screen">
         <h1 class=" text-xl font-mono font-normal text-green mb-4 mt-2">Hello, my name is </h1>
-        <h1 class=" font-poppins text-4xl md:text-6xl font-bold tracking-wide text-lightestslate" style="opacity: 1; pointer-events: auto; transform: none;">Yoosuf Yazak Hafiz</h1>
+        <h1 class=" font-poppins text-4xl md:text-6xl font-bold tracking-wide text-lightestslate">Yoosuf Yazak Hafiz</h1>
 
         <h1 class="text-xl font-mukta tracking-wider text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
         <h1 class="text-lg  tracking-wider text-greyBlue text-lightestslate font-mono md:mt-0 mt-1"> {{"<MobileApps/> && MachineLearning(Models);"}}</h1> 
-        <button type="submit" class="border-2 border-green hover:border-white hover:bg-green hover:bg-opacity-10 mt-8 text-green hover:text-white w-32 h-16 rounded-lg font-mono transition-colors duration-300 tracking-wider"> Github</button>
+        <button @click="location('https://github.com/oreofreakshake')" class="border-2 border-green hover:border-white hover:bg-green hover:bg-opacity-10 mt-8 text-green hover:text-white w-32 h-16 rounded-lg font-mono transition-colors duration-300 tracking-wider"> Github</button>
         
         
         <!-- <h1 class="text-lg font-poppins text-slate">Currently, I'm focused on building accessible, human-centered products BML.</h1>-->
@@ -37,32 +37,44 @@
             </div>
           
           </div>
-            
-          
-          
-            
-
-        
-          
-
-          <!--  <div class="text-center text-2xl md:text-4xl font-poppins font-bold p-12 text-white">Adding more stuff! </div> -->
         </div>
         
+        
       </div>  
-
+      <About/>
     </div>
+    
     
 
 
 
 </template>
 
+
+
 <script>
+import About from "@/components/About.vue"
+
 
 export default {
-  name:"Home",
 
-}
+  name: "Home", 
+  methods: {
+    location(url){
+      window.open(url);  
+    }
+  },
+  components:{
+    About,
+  },
+  data(){
+    return{
+      stuff: null
+    }
+  },
+
+
+};
 </script>
 
 
