@@ -11,7 +11,7 @@
         <div>
             <div>
                 <div class="flex flex-col md:flex-row">
-                    <p class="flex-1 pr-8 text-xl tracking-wider md:text-justify text-lightslate font-mukta">I started off with
+                    <p class="flex-1 pr-8 text-xl tracking-wider md:text-justify text-lightslate font-mukta md:font-poppins md:text-lg">I started off with
                         <a href="/blogs" class=" text-slate font-bold link-underline link-underline-black font-mukta">learning</a> 
                     the basics of networking
                         <!-- <span class=" text-slate font-bold">(there's </span>
