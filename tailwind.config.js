@@ -17,8 +17,9 @@ module.exports = {
         fontFamily: {
             poppins: ["Poppins", "sans-serif"],
             mono: ["Roboto Mono", "SFMono-Regular"],
-            mukta: ["Mukta", "sans-serif"]
+            mukta: ["Mukta", "sans-serif"],
         },
+
     },
     plugins: [],
 };

@@ -2,8 +2,10 @@
   <div class="flex flex-col items-center bg-navy px-8 md:px-16 lg:px-32 xl:px-64 2xl:px-96">
     <div class="flex flex-col items-center justify-center w-full h-full ">
       <div class="flex flex-col justify-center h-screen">
-        <h1 class=" text-xl font-mono font-normal text-green mb-4 mt-2">Hello, my name is </h1>
-        <h1 class=" font-poppins text-4xl md:text-6xl font-bold tracking-wide text-lightestslate">Yoosuf Yazak Hafiz</h1>
+        <div class="flex flex-row">
+          <h1 class=" typing text-xl font-mono font-normal text-green mb-4">Hello, my name is</h1><div class="cursorType">|</div>
+        </div>
+        <h1 class="font-poppins text-4xl md:text-6xl font-bold tracking-wide text-lightestslate">Yoosuf Yazak Hafiz</h1>
 
         <h1 class="text-xl font-mukta tracking-wider text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
         <h1 class="text-lg  tracking-wider text-greyBlue text-lightestslate font-mono md:mt-0 mt-1"> {{"<MobileApps/> && MachineLearning(Models);"}}</h1> 
@@ -79,6 +81,39 @@ export default {
 
 
 <style scoped>
+
+.typing{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 10.3em;
+  animation: type 2s steps(50, end); 
+}
+.typing:nth-child(2){
+  animation: type2 4s steps(40, end);
+}
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+
+.cursorType{
+  animation: blink 1s infinite;
+  font-weight: 900;
+  color:#a8b2d1
+}
+
+@keyframes blink{
+  from{opacity: 1;}
+  to{opacity: .0;}
+}
+
+
 .mouse-icon {
   position:relative;
   bottom: 0;
@@ -142,6 +177,7 @@ export default {
     opacity: 0;
   }
 }
+
 
 
 </style>
