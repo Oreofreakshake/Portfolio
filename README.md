@@ -2,11 +2,6 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Here's the ReactJS code
-
-- NextJS to be specific this was the repo I used for reference
-```https://github.com/byytelope/portfolio```
-
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
@@ -15,7 +10,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ```sh
 npm install
-```https://github.com/byytelope/portfolio
+```https://github.com/oreofreakshake/portfolio
 ```sh
 npm run dev
 ```
@@ -37,3 +32,8 @@ npm run test:unit
 ```shhttps://github.com/byytelope/portfolio
 npm run lint
 ```
+
+# Here's the NextJS code (if you don't prefer vue)
+
+This is the repo I used for reference
+- https://github.com/byytelope/portfolio
