@@ -44,6 +44,7 @@
         
       </div>  
       <About/>
+      <Footer/>
     </div>
     
     
@@ -56,6 +57,7 @@
 
 <script>
 import About from "@/components/About.vue"
+import Footer from "@/components/Footer.vue";
 
 
 export default {
@@ -68,7 +70,8 @@ export default {
   },
   components:{
     About,
-  },
+    Footer
+},
   data(){
     return{
       stuff: null

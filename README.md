@@ -2,9 +2,10 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Here's the ReactJS code
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- NextJS to be specific this was the repo I used for reference
+```https://github.com/byytelope/portfolio```
 
 ## Customize configuration
 
@@ -14,10 +15,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
+```https://github.com/byytelope/portfolio
 ```sh
 npm run dev
 ```
@@ -36,6 +34,6 @@ npm run test:unit
 
 ### Lint with [ESLint](https://eslint.org/)
 
-```sh
+```shhttps://github.com/byytelope/portfolio
 npm run lint
 ```

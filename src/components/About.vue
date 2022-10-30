@@ -40,7 +40,9 @@
     
 </div>
     
-</template>typing<script>
+</template>
+
+<script>
  export default {
     name:"about",
     
