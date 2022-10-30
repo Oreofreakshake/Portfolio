@@ -11,24 +11,24 @@
         <div>
             <div>
                 <div class="flex flex-col md:flex-row">
-                    <p class="flex-1 pr-8 text-lg tracking-wider md:text-justify text-lightslate">I started off with
-                        <a href="/blogs" class="font-mono text-slate font-bold link-underline link-underline-black">learning</a> 
+                    <p class="flex-1 pr-8 text-xl tracking-wider md:text-justify text-lightslate font-mukta">I started off with
+                        <a href="/blogs" class=" text-slate font-bold link-underline link-underline-black font-mukta">learning</a> 
                     the basics of networking
                         <!-- <span class=" text-slate font-bold">(there's </span>
                         <a href="/blogs" class="font-mono text-slate font-bold link-underline link-underline-black"> story </a> 
                         <span class=" text-slate font-bold">behind it).</span> -->
                         
                     not long before I was introduced to programming. It was
-                        <span class="font-mono text-white">python</span> that took the position of my first language.
+                        <span class="font-mukta text-white">python</span> that took the position of my first language.
                     And in 2017 I was interested by web development so, I started off with a few static websites soon exploring frameworks during the COVID-19 and got intrested by the
-                        <span class=" text-white font-mono">MERN</span> stack.
+                        <span class=" text-white font-mukta">MERN</span> stack.
                     although I really don't enjoy building websites, I started exploring mobile development and I was hooked! Fast-forward today, I'm fluent in
-                        <span class=" text-white font-mono">Flutter</span>,
-                        <span class=" text-white font-mono">ReactJS</span> and
-                        <span class=" text-white font-mono">Django.</span>
+                        <span class=" text-white font-mukta">Flutter</span>,
+                        <span class=" text-white font-mukta">ReactJS</span> and
+                        <span class=" text-white font-mukta">Django.</span>
                     Currently, I'm learning 
-                        <span class=" text-white font-mono">Rust</span> and
-                        <span class=" text-white font-mono">Image-processing.</span>
+                        <span class=" text-white font-mukta">Rust</span> and
+                        <span class=" text-white font-mukta">Image-processing.</span>
                     I've also played around with Machine learning and I'm hoping to be well versed in that as well.    
                     </p>
                     <div class="flex w-full lg:w-72 h-72 bg-lightnavy mt-8 lg:mt-1"></div>
