@@ -20,7 +20,7 @@
                         
                     not long before I was introduced to programming. It was
                         <span class="font-mukta text-white">python</span> that took the position of my first language.
-                    And in 2017 I was interested by web development so, I started off with a few static websites soon exploring frameworks during the COVID-19 and got intrested by the
+                    And in 2017 I gained interest in web development so, I started off with a few static websites soon exploring frameworks during the COVID-19 and got intrested by the
                         <span class=" text-white font-mukta">MERN</span> stack.
                     although I really don't enjoy building websites, I started exploring mobile development and I was hooked! Fast-forward today, I'm fluent in
                         <span class=" text-white font-mukta">Flutter</span>,
