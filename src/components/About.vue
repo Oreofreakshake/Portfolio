@@ -31,8 +31,7 @@
                         <span class=" text-white font-mukta">Image-processing.</span>
                     I've also played around with Machine learning and I'm hoping to be well versed in that as well.    
                     </p>
-                    <img class="flex w-full lg:w-72 h-90 md:h-72 bg-lightnavy mt-8 lg:mt-1" src="../assets/me.png" alt="hello">
-                    <img src="" alt="">
+                    <div class="flex w-full lg:w-72 h-72 bg-lightnavy mt-8 lg:mt-1"></div>
                 </div>
             </div>
         </div>
