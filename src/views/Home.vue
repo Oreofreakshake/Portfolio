@@ -7,7 +7,7 @@
         </div>
         <h1 class="font-poppins text-4xl md:text-6xl font-bold tracking-wide text-lightestslate">Yoosuf Yazak Hafiz</h1>
 
-        <h1 class="text-xl font-mukta tracking-wider text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
+        <h1 class="md:text-lg md:font-poppins font-mukta text-xl tracking-wider text-lightslate md:mt-1 mt-2">I’m a software engineer specializing in building </h1>
         <h1 class="text-lg  tracking-wider text-greyBlue text-lightestslate font-mono md:mt-0 mt-1"> {{"<MobileApps/> && MachineLearning(Models);"}}</h1> 
         <button @click="location('https://github.com/oreofreakshake')" class="border-2 border-green hover:border-white hover:bg-green hover:bg-opacity-10 mt-8 text-green hover:text-white w-32 h-16 rounded-lg font-mono transition-colors duration-300 tracking-wider"> Github</button>
         
