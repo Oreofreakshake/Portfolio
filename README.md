@@ -33,7 +33,4 @@ npm run test:unit
 npm run lint
 ```
 
-# Here's the NextJS code (if you don't prefer vue)
-
-This is the repo I used for reference
-- https://github.com/byytelope/portfolio
+### NOT USING THIS AS MY PORTFOLIO NOW!
