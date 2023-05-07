@@ -17,7 +17,7 @@ function App() {
                     />
                 </a>
             </div>
-            <h1>Vite + React</h1>
+            <h1>Vite + ReactTS</h1>
             <div className="card">
                 <p>New portfolio otw!</p>
             </div>
