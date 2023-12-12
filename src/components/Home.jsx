@@ -99,7 +99,7 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="flex mt-16 justify-evenly cursor-pointer">
+                        <div className="flex mt-16 justify-evenly md:cursor-pointer cursor-auto">
                             <div
                                 className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring"
                                 href="/download"
