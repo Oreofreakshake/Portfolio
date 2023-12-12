@@ -2,10 +2,12 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        fontFamily: {
-            Ysabeau: ["Ysabeau Office", "sans-serif"],
+        extend: {
+            fontFamily: {
+                jost: ["Jost", "sans-serif"],
+                dmsans: ["DM Sans", "sans-serif"],
+            },
         },
-        extend: {},
     },
     plugins: [],
 };
