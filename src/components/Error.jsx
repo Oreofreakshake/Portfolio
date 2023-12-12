@@ -10,10 +10,10 @@ const Error = () => {
 
     return (
         <>
-            <div className="h-screen bg-gradient-to-t from-gray-800 to-gray-900">
+            <div className="h-screen bg-gradient-to-b from-slate-900 to-slate-800">
                 <div className="text-white flex items-center justify-center min-h-screen pt-6">
                     <div className="flex flex-col justify-center font-dmsans font-bold">
-                        <div className="text-center text-8xl mb-8 font-normal font-jost">
+                        <div className="text-center text-6xl mb-8 font-normal font-jost">
                             404
                         </div>
 

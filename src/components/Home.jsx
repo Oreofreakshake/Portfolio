@@ -3,7 +3,7 @@ import picture from "../assets/picture.jpg";
 const Home = () => {
     return (
         <>
-            <div className="h-screen bg-gradient-to-t from-gray-800 to-gray-900">
+            <div className="h-screen bg-gradient-to-b from-slate-900 to-slate-800">
                 <div className="text-white flex items-center justify-center min-h-screen pt-6">
                     <div className="max-w-xs">
                         <div className="bg-white pt-3 shadow-lg rounded-lg">
@@ -14,18 +14,18 @@ const Home = () => {
                                     alt="John Doe"
                                 />
                             </div>
-                            <div className="p-2">
+                            <div className="p-4">
                                 <h3 className="text-center text-xl text-gray-900 font-semibold font-jost leading-8">
                                     Yoosuf Yazak
                                 </h3>
                                 <div className="text-center text-gray-400 text-sm font-semibold font-dmsans">
                                     <p>Software Engineer</p>
                                 </div>
-                                <div className="text-left text-xs my-3">
+                                <div className="text-left text-xs my-4">
                                     <div className="px-2 py-2 text-gray-700 font-bold font-dmsans">
                                         ABOUT
                                     </div>
-                                    <div className="px-2 py-2 text-sm text-gray-500 font-semibold font-dmsans">
+                                    <div className="px-2 py-2 text-sm text-justify text-gray-500 font-semibold font-dmsans">
                                         I&rsquo;m a student at The Maldives
                                         National University, completing my
                                         Bachelor of Computer Science with
@@ -106,9 +106,9 @@ const Home = () => {
                                     className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring"
                                     href="/download"
                                 >
-                                    <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-gray-600 transition-all group-hover:h-full group-active:bg-gray-500"></div>
+                                    <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-slate-600 transition-all group-hover:h-full group-active:bg-slate-500"></div>
 
-                                    <div className="relative text-xs font-semibold font-dmsans text-gray-600 transition-colors group-hover:text-white">
+                                    <div className="relative text-xs font-semibold font-dmsans text-slate-600 transition-colors group-hover:text-white">
                                         ABOUT
                                     </div>
                                 </div>
@@ -116,9 +116,9 @@ const Home = () => {
                                     className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring"
                                     href="/download"
                                 >
-                                    <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-gray-600 transition-all group-hover:h-full group-active:bg-gray-500"></div>
+                                    <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-slate-600 transition-all group-hover:h-full group-active:bg-slate-500"></div>
 
-                                    <div className="relative text-xs font-semibold font-dmsans text-gray-600 transition-colors group-hover:text-white">
+                                    <div className="relative text-xs font-semibold font-dmsans text-slate-600 transition-colors group-hover:text-white">
                                         EXPERIENCE
                                     </div>
                                 </div>
@@ -126,9 +126,9 @@ const Home = () => {
                                     className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring"
                                     href="/download"
                                 >
-                                    <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-gray-600 transition-all group-hover:h-full group-active:bg-gray-500"></div>
+                                    <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-slate-600 transition-all group-hover:h-full group-active:bg-slate-500"></div>
 
-                                    <div className="relative text-xs font-semibold font-dmsans text-gray-600 transition-colors group-hover:text-white">
+                                    <div className="relative text-xs font-semibold font-dmsans text-slate-600 transition-colors group-hover:text-white">
                                         CONTACT
                                     </div>
                                 </div>
