@@ -14,7 +14,7 @@ const Home = () => {
                                     alt="John Doe"
                                 />
                             </div>
-                            <div className="p-4">
+                            <div className="sm:p-4 p-3">
                                 <h3 className="text-center text-xl text-gray-900 font-semibold font-jost leading-8">
                                     Yoosuf Yazak
                                 </h3>
@@ -25,7 +25,7 @@ const Home = () => {
                                     <div className="px-2 py-2 text-gray-700 font-bold font-dmsans">
                                         ABOUT
                                     </div>
-                                    <div className="px-2 py-2 text-sm text-justify text-gray-500 font-semibold font-dmsans">
+                                    <div className="px-2 py-2 text-sm sm:text-justify text-gray-500 font-medium font-dmsans">
                                         I&rsquo;m a student at The Maldives
                                         National University, completing my
                                         Bachelor of Computer Science with
