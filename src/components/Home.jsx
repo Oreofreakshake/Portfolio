@@ -1,6 +1,11 @@
+import { useState } from "react";
+
+//assests
 import picture from "../assets/picture.jpg";
 
 const Home = () => {
+    const [Active, isActive] = useState(true);
+
     return (
         <>
             <div className="h-screen bg-gradient-to-b from-slate-900 to-slate-800">
@@ -101,34 +106,27 @@ const Home = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className="flex mt-16 justify-evenly md:cursor-pointer cursor-auto">
-                                <div
-                                    className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring"
-                                    href="/download"
+                            <div className="flex mt-14 justify-evenly md:cursor-pointer text-xs  font-semibold font-dmsans cursor-auto">
+                                <button
+                                    className={
+                                        Active
+                                            ? `px-5 py-3 bg-slate-600 rounded-t-lg transition-all text-white ease-in border-slate-600  border-b-2`
+                                            : `px-5 py-3 text-slate-600 hover:bg-slate-600 rounded-t-lg transition-all hover:text-white ease-in border-slate-600  border-b-2`
+                                    }
                                 >
+                                    ABOUT
+                                </button>
+                                <div className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring">
                                     <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-slate-600 transition-all group-hover:h-full group-active:bg-slate-500"></div>
 
-                                    <div className="relative text-xs font-semibold font-dmsans text-slate-600 transition-colors group-hover:text-white">
-                                        ABOUT
-                                    </div>
-                                </div>
-                                <div
-                                    className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring"
-                                    href="/download"
-                                >
-                                    <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-slate-600 transition-all group-hover:h-full group-active:bg-slate-500"></div>
-
-                                    <div className="relative text-xs font-semibold font-dmsans text-slate-600 transition-colors group-hover:text-white">
+                                    <div className="relative  text-slate-600 transition-colors group-hover:text-white">
                                         EXPERIENCE
                                     </div>
                                 </div>
-                                <div
-                                    className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring"
-                                    href="/download"
-                                >
+                                <div className="group relative inline-block overflow-hidden px-5 py-3 focus:outline-none focus:ring">
                                     <div className="absolute inset-x-0 bottom-0 h-[2px] rounded-t-lg bg-slate-600 transition-all group-hover:h-full group-active:bg-slate-500"></div>
 
-                                    <div className="relative text-xs font-semibold font-dmsans text-slate-600 transition-colors group-hover:text-white">
+                                    <div className="relative  text-slate-600 transition-colors group-hover:text-white">
                                         CONTACT
                                     </div>
                                 </div>
